@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta name="author" content="Jessica Souza carvalho">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"content="App web interativo de simulação de atendimento automatizado.">
+    <title>ChatFlow-demo</title>
+</head>
+<body>
+  
+    <header>
+        <h1>ChatFlow Demo</h1>
+        <p>Teste diferentes estilos de atendimento automatizado em uma experiência interativa.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Apresentação da ferramenta</h2>
+            <p>
+                O ChatFlow é uma demonstração de uma plataforma de atendimento inteligente.
+                Aqui você pode escolher o tipo de atendimento e o estilo de linguagem para ver como o chatbot responde.
+            </p>
+        </section>
+      <div class="app-layout">
+        <section>
+            <h2>Configurar atendimento</h2>
+
+            <label for="tipoAtendimento">Tipo de atendimento:</label>
+            <select id="tipoAtendimento">
+                <option value="">Selecione</option>
+                <option value="vendas">Vendas</option>
+                <option value="suporte">Suporte</option>
+            </select>
+
+            <br><br>
+
+            <label for="tomLinguagem">Tom de linguagem:</label>
+            <select id="tomLinguagem">
+                <option value="">Selecione</option>
+                <option value="casual">Casual</option>
+                <option value="profissional">Profissional</option>
+            </select>
+
+            <br><br>
+
+            <button id="iniciarTeste">Iniciar simulação</button>
+            <button id="limparChat">Limpar conversa</button>
+        </section>
+
+        <section>
+            <h2>Resposta do chatbot</h2>
+            <div id="respostaBot">
+                <p>A resposta aparecerá aqui.</p>
+            </div>
+        </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Jessica Souza</p>
+    </footer>
+
+    <script src="app.js"></script>
+
+
+
+<script src="app.js"></script>
+</body>
+</html>

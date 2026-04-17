@@ -1,0 +1,133 @@
+/* Projeto: ChatFlow Demo
+   Autora: Jessica Souza */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #1f2937;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+section h2 {
+    margin-bottom: 12px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+select,
+button {
+    width: 100%;
+    max-width: 320px;
+    padding: 12px;
+    font-size: 1rem;
+    margin-bottom: 12px;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+#respostaBot {
+    background-color: #eef4ff;
+    border-radius: 10px;
+    padding: 16px;
+    min-height: 100px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.95rem;
+}
+.mensagem-usuario {
+    text-align: right;
+    background-color: #dbeafe;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.mensagem-bot {
+    text-align: left;
+    background-color: #e5e7eb;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#limparChat {
+    background-color: #6b7280;
+
+
+#limparChat:hover 
+    background-color: #4b5563;
+}
+.app-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+#respostaBot {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+    .app-layout {
+        grid-template-columns: 1fr;
+    }
+
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    section {
+        padding: 16px;
+    }
+}
